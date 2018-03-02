@@ -1,14 +1,14 @@
 # Site
-title:              Moon
-bio:                'Minimal, one column jekyll theme.'
-description:        "Moon is a minimal, one column jekyll theme for your blog."
+title:              G.A.T.O. Project
+bio:                'Puzzle making and cats taking over the world.'
+description:        "G.A.T.O. is an Imagine Cup game entry from Unicamp (Brazil), using Azure ecosystem for puzzle creation and collaboration between players."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://taylantatli.github.io/Moon
+url:                https://gatoproject.github.io
 
 # Jekyll
 permalink:          /:title/
