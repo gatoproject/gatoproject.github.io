@@ -1,22 +1,22 @@
 title: G.A.T.O. Project
 name: Unichamps
 email: henriquelalves@gmail.com
-description: Game Development blog on G.A.T.O. Project, a Miscrosoft Imagine Cup game about collaborative puzzle making and cat's taking over the world.
+description: Game Development blog on G.A.T.O. Project, a Miscrosoft Imagine Cup game about collaborative puzzle making and cats taking over the world.
 baseurl: "/blog"
 url: ""
 
 parallax_image_one: assets/images/startup3.jpg # These are the images used for the parallax background
 parallax_image_two: assets/images/startup3.jpg
 
-project_one: "Global Game Jam prototype"
-project_one_description: The first prototype, made during GGJ2018!
-project_one_url: https://github.com/fpg1503/GGJ2018
-project_one_icon: location_on
+# project_one: "Global Game Jam prototype"
+# project_one_description: The first prototype, made during GGJ2018!
+# project_one_url: https://github.com/fpg1503/GGJ2018
+# project_one_icon: location_on
 
-portfolio_heading: Game alpha
-portfolio_type: cards
+# portfolio_heading: Game alpha
+# portfolio_type: cards
 
-syntax_highlighting: true
+# syntax_highlighting: true
 # Skill icons from https://konpa.github.io/devicon/
 
 # skills:
