@@ -1,24 +1,31 @@
 ---
 layout: default
 ---
-  <div class="container">
-    <div class="col s10">
-    <div class="row" style="padding:10px;">
-      <a id="home" class="waves-effect waves-light btn white-text darken-2 grey z-depth-4" href="{{site.baseurl}}/#blog"><i class="material-icons">arrow_back</i></a>
-    </div>
-    <h3 class="post-title" itemprop="name headline" style="text-align:center">{{ page.title | escape }}</h3>
 
-    <p class="post-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        {{ page.date | date: date_format }}
-      </time>
-      {% if page.author %}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
-      {% endif %}</p>
+{% include wrap.html %}
 
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
-  </div>
-</div>
-</div>
+<div class="container mtb">
+    <div class="row">
+        <! -- SINGLE POST -->
+        <div class="col-lg-8">
+            <! -- Blog Post  -->
+            <p><img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.img }}"></p>
+            <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
+            <p><csmall>{{ page.date | date: "%b %-d, %Y" }}. | By: {{ page.author }}</csmall></p>
+              
+            {{ content }}
+
+            <div class="spacing"></div>
+            <!-- <h6>SHARE:</h6>
+            <p class="share">
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-tumblr"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>		 		
+            </p> -->
+        </div><! --/col-lg-8 -->
+        
+        {% include sidebar.html %}
+
+    </div><! --/row -->
+</div><! --/container -->
